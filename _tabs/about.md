@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-*At **OFFENZIV Information Security**, we strive to strengthen our customers' information security infrastructure and employees through penetration testing, consulting and defensive security services.
+*At **OFFENZIV Information Security**, we strive to strengthen our customers' information security infrastructure and employees through penetration testing, consulting and defensive security services.*
 
 **OFFENZIV** was born out of more then 10 years of experience helping secure a numerous of businesses. We took the best experiences from the security consulting industry and built a business model around it. We only hire the best people in the industry and we hire passionate people who live and breathe security. Our consultants are all certified, world class and our methodologies are highly sought after.
 
