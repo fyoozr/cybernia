@@ -4,8 +4,18 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-*At **OFFENZIV Information Security**, we strive to strengthen our customers' information security infrastructure and employees through penetration testing, consulting and defensive security services.*
+## What is Cybernia (Cyber Eternia)?
+What thi is all about.
 
-**OFFENZIV** was born out of more then 10 years of experience helping secure a numerous of businesses. We took the best experiences from the security consulting industry and built a business model around it. We only hire the best people in the industry and we hire passionate people who live and breathe security. Our consultants are all certified, world class and our methodologies are highly sought after.
+At Cybernia, I will explore some of the common offensive security techniques involving gaining code execution, code injection, defense evasion, lateral movement, persistence and more.
+Most of these techniques are discovered by other security researchers and I do not claim their ownership. I try to reference the sources I use the best I can, but if you think I've missed something, please get in touch and I will fix it immediately.
 
-Our mission is to provide our clients with the most professional security consulting services possible. We aim to be easy to engage and flexible to the client's needs. We take pride in our work and we aspire to provide a seamless and successful return on investment.
+## The Goal
+
+The goal of this project is simple - read other researchers work, execute some common/uncommon attacking techniques in a lab environment, do my own reasearch and:
+
+- understand how various cyber attacks and techniques can be executed and how they work
+- learn more about python, Web applications and APIs
+- see what artifacts the techniques and tools leave behind on the endpoint 
+- try out various industry tools for pentesting, coding, debugging, reverse engineering, malware analysis, and become more profficient in using them
+- take notes for future reference
