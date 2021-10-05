@@ -20,17 +20,10 @@ timezone: Europe/Sarajevo
 
 title: CYBERNIA                          # the main title
 
-<<<<<<< HEAD
-tagline: A Home For Cybersecurity Enthusiasts.   # it will display as the sub-title
-
-description: >-                        # used by seo meta and the atom feed
-  Offensive Security Laboratory..
-=======
 tagline: Offensive Security Laboratory   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A Home For Cybersecurity Enthusiasts.
->>>>>>> edaac9928ccd0e0632a375a90cce7dff1876d1bd
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://lab.offenziv.com'
