@@ -5,7 +5,7 @@ order: 4
 ---
 
 ## What is Cybernia (Cyber Eternia)?
-What thi is all about.
+What this is all about.
 
 At Cybernia, I will explore some of the common offensive security techniques involving gaining code execution, code injection, defense evasion, lateral movement, persistence and more.
 Most of these techniques are discovered by other security researchers and I do not claim their ownership. I try to reference the sources I use the best I can, but if you think I've missed something, please get in touch and I will fix it immediately.
