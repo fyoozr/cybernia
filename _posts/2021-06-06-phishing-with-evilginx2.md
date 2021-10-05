@@ -24,51 +24,51 @@ If you already have an account you can proceed to the next steps.
 
 Let's start off by building a new EC2 instance. It really doesn't matter to much but I chose Ubuntu Server 20.04 LTS (Free tier eligible) server. For the purpose of the campaign, we don't need that much computing power so I am going to use free tier t2.micro instance. 
 
-- Got to EC2 Dashboard and **Launch instance**.
+Got to EC2 Dashboard and **Launch instance**.
 
 ![Launch Instance](/assets/pics/launch_instance.png)
 
-- On the next page find Ubuntu Server 20.04 TLS 64-bit (x86) machine and **Select** it.
+On the next page find Ubuntu Server 20.04 TLS 64-bit (x86) machine and **Select** it.
 
 ![Image](/assets/pics/ubuntu_server.png)
 
-- Now, select t2.micro (Free tier eligible) and click on **Review and Launch**.
+Now, select t2.micro (Free tier eligible) and click on **Review and Launch**.
 
 ![Image](/assets/pics/t2.micro.png)
 
-- On this page you can review your configuration. You will se security warning here, but don't worry much as we are going to configure security groups next.
-- **Launch** the machine, create a new key pair on popup window and download it. Make sure you don't lose it as we are going to need it later. 
+On this page you can review your configuration. You will se security warning here, but don't worry much as we are going to configure security groups next.
+**Launch** the machine, create a new key pair on popup window and download it. Make sure you don't lose it as we are going to need it later. 
 
 ![Image](/assets/pics/key_pair.png){: width="972" height="589" style="max-width: 70%" }
 
-- Next go on to **Lunch Instance**.
+Next go on to **Lunch Instance**.
 
 #### Security groups.
 
 Security Groups allows you to regulate which ports are open and which ports are closed. This is useful as we don't want all port to be open. So, we are going to open only ports that we are going to use.
 
-- From EC2 Dashboard go to **Security Groups** under **Network & Security**.
+From EC2 Dashboard go to **Security Groups** under **Network & Security**.
 
 ![Image](/assets/pics/sec_grp.png)
 
-- Go on **Create security group** and name it whatever you want.
-- In Inbound rules add custom ports for SSH and HTTP/S. These ports are needed by Evilginx2.
+Go on **Create security group** and name it whatever you want.
+In Inbound rules add custom ports for SSH and HTTP/S. These ports are needed by Evilginx2.
 
 ![Image](/assets/pics/custom_ports.png)
 
-- Click on **Create security group**.
+Click on **Create security group**.
 
 
 Next, we need to assign this group to our instance.
-- Choose **Instances** from the menu and go to **Change security groups** options under **Actions > Security** drop down menu.
+Choose **Instances** from the menu and go to **Change security groups** options under **Actions > Security** drop down menu.
 
 ![Image](/assets/pics/change_sec_group.png)
 
-- Remove current security group then select our newly created group and click on **Add security group** button. Save the changes.
+Remove current security group then select our newly created group and click on **Add security group** button. Save the changes.
 
 ![Image](/assets/pics/add_sec_group.png)
 
-- Select your instance and go to **Security** tab to verify that security group is applied to your machine.
+Select your instance and go to **Security** tab to verify that security group is applied to your machine.
 
 ![Image](/assets/pics/verify_ports.png)
 
