@@ -197,10 +197,18 @@ More Phishlets can be found at <https://github.com/hash3liZer/phishlets>
 ## References
 
 Set up EC2 Instance: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html>
+
 Evilginx2 github: <https://github.com/kgretzky/evilginx2>
+
 GoLang: <https://golang.org/doc/install>
+
 Cookie-Editor Firefox browser extension: <https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/>
+
 FIDO U2F device: <https://www.yubico.com/authentication-standards/fido-u2f/>
 
-#### Disclaimer
-The Cybernia blogs are solely for informational and educational purposes. Any actions and or activities related to the material contained within this website are solely your responsibility. The misuse of the information on this website can result in criminal charges brought against the persons in question. The authors and Cybernia will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this website to break the law.
+
+
+___
+**Disclaimer**
+
+<span style="font-size:0.7em;">The Cybernia blogs are solely for informational and educational purposes. Any actions and or activities related to the material contained within this website are solely your responsibility. The misuse of the information on this website can result in criminal charges brought against the persons in question. The authors and Cybernia will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this website to break the law.</span>
