@@ -209,6 +209,6 @@ FIDO U2F device: <https://www.yubico.com/authentication-standards/fido-u2f/>
 
 
 ___
-**Disclaimer**
+###### Disclaimer
 
 <span style="font-size:0.7em;">The Cybernia blogs are solely for informational and educational purposes. Any actions and or activities related to the material contained within this website are solely your responsibility. The misuse of the information on this website can result in criminal charges brought against the persons in question. The authors and Cybernia will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this website to break the law.</span>
