@@ -1,5 +1,5 @@
 ---
-title: Phishing with Evilginx2 Reverse HTTP Proxy
+title: Phishing with Evilginx2 and AWS
 date: 2021-06-06 20:55:00 +0800
 categories: [Social Engineering, Tutorial]
 tags: [Phishing, Evilginx2]
@@ -8,13 +8,12 @@ mermaid: true
 ---
 
 ___
-This lab shows how to setup a Evilginx2 reverse HTTP proxy that can be used in phishing campaigns to steal login credential along with session cookies, which in turn allows to bypass 2-factor authentication (2FA) protection. Evilginx2 makes this possible, because it sits in the middle between the website you as an attacker are impersonating and the victim (MITM) while recording all the traffic/tokens/passwords that traverse it.
-
+This lab shows how to setup an Evilginx2 attack framework that can be used in phishing campaigns to steal login credential along with session cookies, which in turn allows to bypass 2-factor authentication (2FA) protection. Phished user interacts with the real website, while Evilginx2 captures all the data being transmitted between the two parties. Evilginx2 makes this possible, because it sits in the middle between the website you as an attacker are impersonating and the victim (MITM) while recording all the traffic/tokens/passwords that traverse it.
 ___
 
 ## Setup
 
-I found that the simplest and quickest way to deploy Evilginx and run phishing campaign is to build an Amazon EC2 Tier T2 Micro Instance.
+I found that the simplest and quickest way to deploy Evilginx2 and run phishing campaign is to build an Amazon EC2 Tier T2 Micro Instance.
 
 ### Set up Amazon EC2 Instance
 
@@ -126,7 +125,7 @@ Configure your DNS settings to include following A records:
 
 
 
-## Launching the Campaign
+## Performing the Attack
 
 Now as everything is set up, we are ready to launch our campaign.
 
@@ -190,12 +189,18 @@ What we need to do now is just to reload the page and "voila" we got the access 
 
 More Phishlets can be found at <https://github.com/hash3liZer/phishlets>
 
+## How to Defend from Such Attacks?
+
+- Check the domain in the address bar of the browser keenly.
+- Use 2nd Factor (U2F) Devices
+
 ## References
 
 Set up EC2 Instance: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html>
-
 Evilginx2 github: <https://github.com/kgretzky/evilginx2>
-
 GoLang: <https://golang.org/doc/install>
-
 Cookie-Editor Firefox browser extension: <https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/>
+FIDO U2F devie: <https://www.yubico.com/authentication-standards/fido-u2f/>
+
+#### Disclaimer
+The Cybbernia blogs are solely for informational and educational purposes. Any actions and or activities related to the material contained within this website are solely your responsibility. The misuse of the information on this website can result in criminal charges brought against the persons in question. The authors and Cybernia will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this website to break the law.
